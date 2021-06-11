@@ -2,7 +2,7 @@
 	font-family: 'SaminBold';
 	src:  url('/fonts/Samim-Bold.woff2') format('woff2'),
 		  url('/fonts/Samim-Bold.woff') format('woff');
-  }
+}
 
 :root { font-size: 1.125rem; }
 @media (min-width: 600px) { :root { font-size: 1.5rem; } }
@@ -19,7 +19,7 @@ body {
   align-items: center;
   min-width: 100vw;
   min-height: 100vh;
-  font-family: "SaminBold";
+  font-family: "Helvetica Neue", "SaminBold";
   background: rgb(0, 0, 0);
 }
 .messages {
@@ -39,6 +39,7 @@ body {
   transform-origin: 0 100%;
   vertical-align: middle;
   transition: border-radius .25s ease-out .075s;
+  font-family: "Helvetica Neue";
 }
 .bubble.left.cornered {
   border-bottom-right-radius: 0;
